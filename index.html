@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="img/muscle.png" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Health and fitness</title>
+
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <img
+          src="img/flogo.jpg"
+          alt="fitness logo"
+          class="nav__logo"
+          id="logo"
+          designer="Prasad"
+          data-version-number="3.0"
+        />
+        <ul class="nav__links">
+          <li class="nav__item">
+            <a class="nav__link" href="#section--1">Weight training</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--2">Nutrition</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--3">Comments</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link nav__link--btn btn--show-modal" href="#"
+              >Sign up</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__title">
+        <!-- <h1 onclick="alert('HTML alert')"> -->
+        <h1>
+          All about
+          <!-- Green highlight effect -->
+          <span class="highlight">FITNESS</span>
+          and<br />
+          <span class="highlight">NUTRITION</span>
+        </h1>
+        <h4>A simpler way to make your life healthier.</h4>
+        <button class="btn--text btn--scroll-to">Learn more &DownArrow;</button>
+        <img src="img/fitness.jpg" class="header__img" />
+      </div>
+    </header>
+
+    <section class="section" id="section--1">
+      <div class="section__title">
+        <h2 class="section__description">Weight training</h2>
+        <h3 class="section__header">
+          Essentials of weight training in our lives.
+        </h3>
+      </div>
+
+      <div class="features">
+        <img
+          src="img/what.webp"
+          data-src="img/what.webp"
+          alt="Computer"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-monitor"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">What is weight training?</h5>
+          <p>
+            Weight training is a type of strength training that uses weights for
+            resistance. This could be weight machines or free weights, like
+            dumbbells or barbells, at home or a gym. It stresses and strengthens
+            your muscles over time.
+          </p>
+        </div>
+
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-trending-up"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">How much weight is best?</h5>
+          <p>
+            The amount of weight you use depends on how many repetitions you’re
+            aiming for. You want to lift enough weight so that the last
+            repetition is really tough and you feel like you couldn’t do one
+            more. Naturally, you’ll need to use a heavier dumbbell for 6
+            repetitions than you will for 12, even though you’re doing the same
+            exercise.
+          </p>
+        </div>
+        <img
+          src="img/eddie.jpg"
+          data-src="img/eddie.jpg"
+          alt="Plant"
+          class="features__img lazy-img"
+        />
+
+        <img
+          src="img/squat.jpg"
+          data-src="img/squat.jpg"
+          alt="Credit card"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-credit-card"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">
+            Which exercises are best for weight training?
+          </h5>
+          <p>
+            The best exercises depend on your goals and how much time you have.
+            You can do one exercise per body part or you can do six. You can do
+            exercises that focus on one muscle group or exercises that work
+            several at the same time.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--2">
+      <div class="section__title">
+        <h2 class="section__description">Nutrition</h2>
+        <h3 class="section__header">
+          Essentials of proper nutrition in our lives.
+        </h3>
+      </div>
+
+      <div class="operations">
+        <div class="operations__tab-container">
+          <button
+            class="btn operations__tab operations__tab--1 operations__tab--active"
+            data-tab="1"
+          >
+            <span>01</span>What?
+          </button>
+          <button class="btn operations__tab operations__tab--2" data-tab="2">
+            <span>02</span>About
+          </button>
+          <button class="btn operations__tab operations__tab--3" data-tab="3">
+            <span>03</span>Cheat meals?
+          </button>
+        </div>
+        <div
+          class="operations__content operations__content--1 operations__content--active"
+        >
+          <div class="operations__icon operations__icon--1">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-upload"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">What exactly is proper nutrition?</h5>
+          <p>
+            Nutrition is the process of taking in food and converting it into
+            energy and other vital nutrients required for life. In the process
+            of nutrition, organisms utilize nutrients. The main nutrients are
+            carbohydrates, fat, protein, vitamins, minerals, and roughage.
+          </p>
+        </div>
+
+        <div class="operations__content operations__content--2">
+          <div class="operations__icon operations__icon--2">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-home"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">About Nutrition</h5>
+          <p>
+            It emphasizes fruits, vegetables, whole grains, and fat-free or
+            low-fat milk and milk products Includes a variety of protein foods
+            such as seafood, lean meats and poultry, eggs, legumes (beans and
+            peas), soy products, nuts, and seeds. Is low in added sugars,
+            sodium, saturated fats, trans fats, and cholesterol. Stays within
+            your daily calorie needs.
+          </p>
+        </div>
+        <div class="operations__content operations__content--3">
+          <div class="operations__icon operations__icon--3">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-user-x"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            You can still enjoy your favorite foods, even if they are high in
+            calories, fat or added sugars.
+          </h5>
+          <p>
+            Eat them less often. If you normally eat these foods every day, cut
+            back to once a week or once a month. Eat smaller amounts. If your
+            favorite higher-calorie food is a chocolate bar, have a smaller size
+            or only half a bar. Try a lower-calorie version. Use lower-calorie
+            ingredients or prepare food differently. For example, if your
+            macaroni and cheese recipe includes whole milk, butter, and full-fat
+            cheese, try remaking it with non-fat milk, less butter, low-fat
+            cheese, fresh spinach and tomatoes. Just remember to not increase
+            your portion size.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--3">
+      <div class="section__title section__title--testimonials">
+        <h2 class="section__description">Not sure yet?</h2>
+        <h3 class="section__header">
+          Many fitness enthusiasts have already made their live simpler
+        </h3>
+      </div>
+
+      <div class="slider">
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              Best fitness related website ever!
+            </h5>
+            <blockquote class="testimonial__text">
+              Best fitness related website ever! it really helped me in my
+              fitness journey, thank you very much for your great effort.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-1.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Amaan Poonawala</h6>
+              <p class="testimonial__location">Mumbra, thane</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              Goldmine of fitness inspiration!
+            </h5>
+            <blockquote class="testimonial__text">
+              This website is a goldmine of fitness inspiration! The articles
+              are not only informative but also incredibly motivating. I love
+              how it caters to all fitness levels and makes the journey towards
+              a healthier lifestyle feel achievable and enjoyable.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-2.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Miyah Miles</h6>
+              <p class="testimonial__location">London, UK</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              The nutrition section is a game-changer!
+            </h5>
+            <blockquote class="testimonial__text">
+              The nutrition section is a game-changer! The recipes are
+              delicious, and the nutritional information is so helpful. It's
+              great to see a fitness website that emphasizes the importance of
+              both exercise and a healthy diet
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-3.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Francisco Gomes</h6>
+              <p class="testimonial__location">Lisbon, Portugal</p>
+            </address>
+          </div>
+        </div>
+
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="dots"></div>
+      </div>
+    </section>
+
+    <section class="section section--sign-up">
+      <div class="section__title">
+        <h3 class="section__header">
+          Many fitness enthusiasts have already made their live simpler, SIGN UP
+          now and become a part of them!
+        </h3>
+      </div>
+      <button class="btn btn--show-modal">Sign up today!</button>
+    </section>
+
+    <footer class="footer">
+      <ul class="footer__nav">
+        <li class="footer__item">
+          <a class="footer__link" href="#">About</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Pricing</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Terms of Use</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Privacy Policy</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Careers</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Blog</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Contact Us</a>
+        </li>
+      </ul>
+      <img src="img/muscle.png" alt="Logo" class="footer__logo" />
+      <p class="footer__copyright">
+        &copy; Copyright by
+        <a
+          class="footer__link twitter-link"
+          target="_blank"
+          href="https://www.instagram.com/_prrasad_/"
+          >Prasad Jambhale</a
+        >
+      </p>
+    </footer>
+
+    <div class="modal hidden">
+      <button class="btn--close-modal">&times;</button>
+      <h2 class="modal__header">
+        Sign up here <br />
+        in just <span class="highlight">5 minutes</span>
+      </h2>
+      <form class="modal__form">
+        <label>First Name</label>
+        <input type="text" />
+        <label>Last Name</label>
+        <input type="text" />
+        <label>Email Address</label>
+        <input type="email" />
+        <button class="btn">Next step &rarr;</button>
+      </form>
+    </div>
+    <div class="overlay hidden"></div>
+
+    <!-- <script src="script.js"></script> -->
+  </body>
+</html>
